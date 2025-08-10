@@ -6,7 +6,9 @@ It consists of two main scripts:
 - `main.py` – for querying the stored data and retrieving relevant answers.
 
 ## Project Structure
+```bash
 .
 ├── ingestion.py # Handles document loading, chunking, embedding, and storage in Pinecone
 ├── main.py # Retrieves and queries the Pinecone index using LangChain
 └── mediumblog1.txt # Example source document
+```
